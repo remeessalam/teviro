@@ -44,7 +44,8 @@ export const companyDetails = {
   linkedin: "",
   instagram: "",
   twitter: "",
-  whatsapplink: "",
+  whatsapplink:
+    "https://api.whatsapp.com/send/?phone=7980869338&text&type=phone_number&app_absent=0",
 };
 
 export const routes = [
