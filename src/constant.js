@@ -202,58 +202,105 @@ export const allServices = [
     title: "Custom Software Development",
     description:
       "Tailored solutions that align with your business objectives, ensuring flexibility, security, and scalability for optimal operational efficiency.",
-    icon: <FaCode className="text-7xl bg-primary p-3 rounded-full" />,
-    detailContent: `Off-the-shelf software solutions often fail to meet the specific needs of your business. At Teviro AI Technologies, we focus on creating custom software that addresses your business challenges and enhances operational efficiency. Our team works with you to understand your processes, objectives, and goals to develop truly personalized solutions.\n\nOur Approach:\n• Custom-built solutions aligned with your business objectives\n• Scalable architecture that grows with your business\n• Enterprise-grade security protocols\n• Seamless integration with existing systems\n• Ongoing support and maintenance programs`,
+    icon: FaCode,
+    detailContent: `We develop bespoke software solutions that are precisely tailored to meet your unique business challenges. From initial consultation to deployment and support, we handle the entire software lifecycle, ensuring reliability, adaptability, and peak efficiency.
+
+• Strategic Alignment: Custom-built software aligned with your internal workflows and long-term goals  
+• Scalable Architecture: Modular design enabling seamless upgrades and future enhancements  
+• Security First: Data encryption, access controls, and secure coding practices to safeguard your systems  
+• Integration Expertise: Flawless interaction with your existing infrastructure, tools, and APIs  
+• Agile Development: Rapid delivery cycles with constant feedback loops for high-quality outcomes  
+• Lifetime Support: Ongoing performance monitoring, updates, and feature enhancements to ensure sustainability`,
   },
   {
     id: 2,
     title: "AI Integration",
     description:
       "Harness the power of artificial intelligence to automate processes, enhance decision-making, and drive intelligent automation.",
-    icon: (
-      <GiArtificialIntelligence className="text-7xl bg-primary p-3 rounded-full" />
-    ),
-    detailContent: `Transform your business operations with our cutting-edge AI integration services. We implement machine learning models and predictive analytics that evolve with your business needs, providing real-time insights and automation capabilities.\n\nOur Approach:\n• Custom AI solutions for enterprise challenges\n• Machine learning model development & deployment\n• Predictive analytics for strategic planning\n• Process automation frameworks\n• Intelligent chatbot integration`,
+    icon: GiArtificialIntelligence,
+    detailContent: `We integrate artificial intelligence into your digital ecosystem, transforming how your business thinks and reacts. Our AI solutions automate operations, generate deep insights, and drive meaningful engagement.
+
+• Machine Learning Models: Data-trained systems that evolve with experience to improve accuracy  
+• Process Automation: AI bots managing tasks from customer service to internal operations  
+• Predictive Analytics: Anticipate market trends, user behavior, and operational risks before they happen  
+• Smart Chatbots: AI agents capable of understanding context and intent, offering personalized interactions  
+• NLP Integration: Advanced language models that interact naturally with users in real time  
+• Continuous Optimization: Feedback-driven learning engines to enhance decision-making over time`,
   },
   {
     id: 3,
     title: "UI/UX Design",
     description:
       "User-centric design solutions that combine aesthetics with functionality for exceptional digital experiences.",
-    icon: <FaPalette className="text-7xl bg-primary p-3 rounded-full" />,
-    detailContent: `We create intuitive interfaces that drive engagement and conversion through meticulous user research and data-driven design decisions. Our process balances brand identity with usability requirements.\n\nOur Approach:\n• Comprehensive user research & persona development\n• Interactive prototypes & usability testing\n• Mobile-first responsive design\n• Accessibility-compliant interfaces\n• Continuous iteration based on user feedback`,
+    icon: FaPalette,
+    detailContent: `Our design philosophy blends form and function to deliver experiences that are visually engaging and intuitively navigable. We create systems that users not only enjoy but trust and rely on.
+
+• User Research: Deep discovery process to understand motivations, needs, and digital behavior  
+• Journey Mapping: Comprehensive flow analysis to streamline interactions and remove friction  
+• Wireframing & Prototyping: Interactive, testable blueprints that bring your ideas to life early  
+• Accessibility Focus: WCAG and ADA-compliant designs ensuring usability for all audiences  
+• Responsive Design: Pixel-perfect adaptation across smartphones, tablets, and desktops  
+• Feedback-Driven Refinement: Iterative improvements based on real user testing and analytics`,
   },
   {
     id: 4,
     title: "Chatbot Development",
     description:
       "Intelligent conversational AI solutions that enhance customer engagement and streamline support operations.",
-    icon: <FaCommentDots className="text-7xl bg-primary p-3 rounded-full" />,
-    detailContent: `Develop advanced chatbots powered by NLP and machine learning that deliver 24/7 customer support while continuously improving through interaction analysis.\n\nOur Approach:\n• Natural Language Processing (NLP) integration\n• Multi-platform deployment (Web, Mobile, Social)\n• Contextual conversation management\n• CRM system integration\n• Continuous learning algorithms`,
+    icon: FaCommentDots,
+    detailContent: `Our chatbot development services empower your business with AI-driven communication tools capable of providing round-the-clock support and engagement across multiple platforms.
+
+• Natural Language Processing (NLP): Conversational bots that understand tone, intent, and slang  
+• Multichannel Deployment: Operate across web, mobile apps, WhatsApp, Facebook, and more  
+• Memory and Context Awareness: Bots that remember past conversations for seamless continuity  
+• CRM & API Integration: Direct linkage to your business systems for real-time data retrieval  
+• Custom Workflows: Tailored decision trees and logic-based paths to meet your use cases  
+• Self-Learning Engine: Analytics-powered bots that improve with every interaction`,
   },
   {
     id: 5,
     title: "Game Development",
     description:
       "Immersive gaming experiences across platforms with cutting-edge graphics and engaging gameplay mechanics.",
-    icon: <FaGamepad className="text-7xl bg-primary p-3 rounded-full" />,
-    detailContent: `From casual mobile games to complex VR experiences, we combine technical excellence with creative vision to deliver captivating gaming solutions.\n\nOur Approach:\n• Full-cycle game development\n• Unity & Unreal Engine expertise\n• Multiplayer system architecture\n• VR/AR integration\n• Live ops & post-launch support`,
+    icon: FaGamepad,
+    detailContent: `From indie games to large-scale multiplayer experiences, we build engaging and scalable gaming solutions with a strong focus on player retention and creative storytelling.
+
+• Cross-Platform Development: Simultaneous deployment on iOS, Android, PC, and console  
+• Realistic 3D Graphics: Advanced rendering with high-poly modeling, lighting, and animation  
+• Game Mechanics Design: Balanced, addictive gameplay systems with progression and reward dynamics  
+• Multiplayer Architecture: Robust server solutions supporting real-time competitive or cooperative play  
+• VR/AR Integration: Enhanced immersion through devices like Oculus, Vive, or Hololens  
+• Live Ops & Monetization: In-game events, microtransactions, and content updates for long-term revenue`,
   },
   {
     id: 6,
     title: "Website Development",
     description:
       "High-performance websites that combine stunning design with robust functionality for maximum impact.",
-    icon: <FaGlobe className="text-7xl bg-primary p-3 rounded-full" />,
-    detailContent: `We build responsive, SEO-optimized websites that drive conversions and establish strong digital presence across all devices and platforms.\n\nOur Approach:\n• Custom web application development\n• E-commerce solutions\n• Headless CMS architecture\n• Performance optimization\n• Ongoing maintenance & updates`,
+    icon: FaGlobe,
+    detailContent: `We create powerful, responsive, and SEO-friendly websites that act as the digital front door to your brand. Whether informational or transactional, our sites convert.
+
+• Responsive Layouts: Mobile-first design ensuring usability across all screen sizes  
+• Search Engine Optimization: Schema, metadata, speed, and structure optimized for high visibility  
+• E-Commerce Development: Secure online stores with intuitive navigation and payment integration  
+• CMS Integration: WordPress, Shopify, or headless CMS for easy content management  
+• Speed Optimization: Lazy loading, compression, and caching for sub-second page loads  
+• Maintenance & Security: Regular updates, SSL, and firewalls for ongoing protection`,
   },
   {
     id: 7,
     title: "CRM Solutions",
     description:
       "Transform customer relationships with intelligent CRM systems that centralize data and automate workflows.",
-    icon: <FaUsers className="text-7xl bg-primary p-3 rounded-full" />,
-    detailContent: `Implement customized CRM solutions that provide 360-degree customer insights and automate sales pipelines for improved conversion rates.\n\nOur Approach:\n• Salesforce & HubSpot integration\n• Customer journey mapping\n• Sales automation workflows\n• Predictive lead scoring\n• Advanced analytics & reporting`,
+    icon: FaUsers,
+    detailContent: `Our CRM solutions help you build stronger relationships by centralizing customer data, automating communication, and providing actionable insights for growth.
+
+• Unified Data Hub: Central platform to store and track all customer touchpoints  
+• Sales Pipeline Automation: Efficient lead qualification, follow-ups, and deal tracking  
+• Insightful Dashboards: Real-time views into customer engagement and business health  
+• Marketing Campaigns: Integrated email, SMS, and social campaigns tailored to audience behavior  
+• Custom Modules: Built specifically for your operations—from support tickets to loyalty rewards  
+• API-Friendly Architecture: Seamless integration with third-party tools like Mailchimp, Zapier, and more`,
   },
 ];
 
