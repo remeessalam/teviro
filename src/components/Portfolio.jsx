@@ -1,6 +1,7 @@
 import React from "react";
 import SubHeading from "./SubHeading";
 import { appPortfolio, webPortfolio } from "../constant";
+import { Link } from "react-router-dom";
 
 const Portfolio = ({ page }) => {
   let portfolioList;
@@ -22,8 +23,9 @@ const Portfolio = ({ page }) => {
         Work Speaks Volumes: Discover Our Projects
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-7 max-w-5xl mx-auto mt-5">
-        {portfolioList.map(({ img, id, title }) => (
-          <div
+        {portfolioList.map(({ img, id, title, link }) => (
+          <Link
+            to={link}
             className="relative aspect-square sm:aspect-square rounded-xl overflow-hidden"
             key={id}
             data-aos="fade-up"
@@ -40,7 +42,7 @@ const Portfolio = ({ page }) => {
             <h3 className="text-xl absolute p-3 bottom-0 left-0 w-full bg-primary text-center text-white">
               {title}
             </h3>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
